@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% load draw_menu %}
+{% block title %} Страница с меню {% endblock %}
+{% block content %}
+{% load draw_menu %}
+Меню
+{% draw_menu 'main_menu' %}
+Меню
+Меню
+{% endblock %}
